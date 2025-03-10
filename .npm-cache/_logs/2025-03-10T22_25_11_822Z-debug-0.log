@@ -1,0 +1,82 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.1.0
+2 info using node@v22.14.0
+3 silly config load:file:C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Development\git\ionic_sample\ionic_sample2\.npmrc
+5 silly config load:file:C:\Development\tools\.npmrc
+6 silly config load:file:C:\Users\miyaw\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install jquery
+8 verbose argv "install" "jquery"
+9 verbose logfile logs-max:10 dir:C:\Development\git\ionic_sample\.npm-cache\_logs\2025-03-10T22_25_11_822Z-
+10 verbose logfile C:\Development\git\ionic_sample\.npm-cache\_logs\2025-03-10T22_25_11_822Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest jquery@*
+16 silly packumentCache full:https://registry.npmjs.org/jquery cache-miss
+17 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+18 http fetch GET 200 https://registry.npmjs.org/jquery 637ms (cache miss)
+19 silly packumentCache full:https://registry.npmjs.org/jquery set size:undefined disposed:false
+20 silly placeDep ROOT jquery@3.7.1 OK for: ionic_sample@1.0.0 want: *
+21 silly fetch manifest react-router@^5.0.1
+22 silly packumentCache full:https://registry.npmjs.org/react-router cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/react-router 89ms (cache updated)
+24 silly packumentCache full:https://registry.npmjs.org/react-router set size:undefined disposed:false
+25 silly fetch manifest react@>=16.8.6
+26 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+27 http fetch GET 200 https://registry.npmjs.org/react 174ms (cache miss)
+28 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+29 silly fetch manifest react-router-dom@^5.0.1
+30 silly packumentCache full:https://registry.npmjs.org/react-router-dom cache-miss
+31 http fetch GET 200 https://registry.npmjs.org/react-router-dom 78ms (cache updated)
+32 silly packumentCache full:https://registry.npmjs.org/react-router-dom set size:undefined disposed:false
+33 verbose stack Error: could not resolve
+33 verbose stack     at PlaceDep.failPeerConflict (C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:503:25)
+33 verbose stack     at new PlaceDep (C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:157:21)
+33 verbose stack     at #buildDepStep (C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:920:18)
+33 verbose stack     at async Arborist.buildIdealTree (C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:181:7)
+33 verbose stack     at async Promise.all (index 1)
+33 verbose stack     at async Arborist.reify (C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:131:5)
+33 verbose stack     at async Install.exec (C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\lib\commands\install.js:149:5)
+33 verbose stack     at async Npm.exec (C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\lib\npm.js:207:9)
+33 verbose stack     at async module.exports (C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\lib\cli\entry.js:67:5)
+34 error code ERESOLVE
+35 error ERESOLVE could not resolve
+36 error
+37 error While resolving: @ionic/react-router@8.4.3
+37 error Found: react-router@6.15.0[2m[22m
+37 error [2mnode_modules/react-router[22m
+37 error   react-router@"6.15.0" from react-router-dom@6.15.0[2m[22m
+37 error   [2mnode_modules/react-router-dom[22m
+37 error     react-router-dom@"file:../offline_packages/react-router-dom-6.15.0.tgz" from the root project
+37 error
+37 error Could not resolve dependency:
+37 error [95mpeer[39m react-router@"^5.0.1" from @ionic/react-router@8.4.3[2m[22m
+37 error [2mnode_modules/@ionic/react-router[22m
+37 error   @ionic/react-router@"file:../offline_packages/ionic-react-router-8.4.3.tgz" from the root project
+37 error
+37 error Conflicting peer dependency: react-router@5.3.4[2m[22m
+37 error [2mnode_modules/react-router[22m
+37 error   [95mpeer[39m react-router@"^5.0.1" from @ionic/react-router@8.4.3[2m[22m
+37 error   [2mnode_modules/@ionic/react-router[22m
+37 error     @ionic/react-router@"file:../offline_packages/ionic-react-router-8.4.3.tgz" from the root project
+37 error
+37 error Fix the upstream dependency conflict, or retry
+37 error this command with --force or --legacy-peer-deps
+37 error to accept an incorrect (and potentially broken) dependency resolution.
+38 error
+38 error
+38 error For a full report see:
+38 error C:\Development\git\ionic_sample\.npm-cache\_logs\2025-03-10T22_25_11_822Z-eresolve-report.txt
+39 silly unfinished npm timer reify 1741645512309
+40 silly unfinished npm timer reify:loadTrees 1741645512312
+41 silly unfinished npm timer idealTree:buildDeps 1741645512927
+42 silly unfinished npm timer idealTree:node_modules/@ionic/react-router 1741645513574
+43 verbose cwd C:\Development\git\ionic_sample\ionic_sample2
+44 verbose os Windows_NT 10.0.19045
+45 verbose node v22.14.0
+46 verbose npm  v11.1.0
+47 verbose exit 1
+48 verbose code 1
+49 error A complete log of this run can be found in: C:\Development\git\ionic_sample\.npm-cache\_logs\2025-03-10T22_25_11_822Z-debug-0.log
