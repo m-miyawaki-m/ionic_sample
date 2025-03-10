@@ -1,0 +1,28 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.1.0
+2 info using node@v22.14.0
+3 silly config load:file:C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Development\git\ionic_sample\ionic_sample2\.npmrc
+5 silly config load:file:C:\Development\tools\.npmrc
+6 silly config load:file:C:\Users\miyaw\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--offline" "--legacy-peer-deps"
+9 verbose logfile logs-max:10 dir:C:\Development\git\ionic_sample\.npm-cache\_logs\2025-03-10T14_26_12_512Z-
+10 verbose logfile C:\Development\git\ionic_sample\.npm-cache\_logs\2025-03-10T14_26_12_512Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 silly audit report null
+17 verbose reify failed optional dependency C:\Development\git\ionic_sample\ionic_sample2\node_modules\fsevents
+18 silly reify mark deleted [
+18 silly reify   'C:\\Development\\git\\ionic_sample\\ionic_sample2\\node_modules\\fsevents'
+18 silly reify ]
+19 silly ADD
+20 verbose cwd C:\Development\git\ionic_sample\ionic_sample2
+21 verbose os Windows_NT 10.0.19045
+22 verbose node v22.14.0
+23 verbose npm  v11.1.0
+24 verbose exit 0
+25 info ok

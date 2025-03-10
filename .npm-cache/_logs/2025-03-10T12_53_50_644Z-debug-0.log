@@ -1,0 +1,20 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.1.0
+2 info using node@v22.14.0
+3 silly config load:file:C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Development\ionic\ionic_sample\.npmrc
+5 silly config load:file:C:\Development\tools\.npmrc
+6 silly config load:file:C:\Users\miyaw\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm list @types/react
+8 verbose argv "list" "@types/react"
+9 verbose logfile logs-max:10 dir:C:\Development\ionic\.npm-cache\_logs\2025-03-10T12_53_50_644Z-
+10 verbose logfile C:\Development\ionic\.npm-cache\_logs\2025-03-10T12_53_50_644Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 verbose cwd C:\Development\ionic\ionic_sample
+15 verbose os Windows_NT 10.0.19045
+16 verbose node v22.14.0
+17 verbose npm  v11.1.0
+18 verbose exit 0
+19 info ok

@@ -1,0 +1,42 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.1.0
+2 info using node@v22.14.0
+3 silly config load:file:C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Development\git\ionic_sample\ionic_sample2\.npmrc
+5 silly config load:file:C:\Development\tools\.npmrc
+6 silly config load:file:C:\Users\miyaw\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install ../npm_cache
+8 verbose argv "install" "--offline" "--legacy-peer-deps" "--cache." "../npm_cache"
+9 verbose logfile logs-max:10 dir:C:\Development\git\ionic_sample\.npm-cache\_logs\2025-03-10T14_25_03_542Z-
+10 verbose logfile C:\Development\git\ionic_sample\.npm-cache\_logs\2025-03-10T14_25_03_542Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 verbose stack Error: Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\Development\git\ionic_sample\npm_cache\package.json'
+14 verbose stack     at async open (node:internal/fs/promises:638:25)
+14 verbose stack     at async readFile (node:internal/fs/promises:1242:14)
+14 verbose stack     at async read (C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\package-json\lib\read-package.js:9:18)
+14 verbose stack     at async PackageJson.load (C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:131:31)
+14 verbose stack     at async PackageJson.normalize (C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:117:5)
+14 verbose stack     at async C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:515:22
+14 verbose stack     at async Promise.all (index 0)
+14 verbose stack     at async #add (C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:504:5)
+14 verbose stack     at async #applyUserRequestsToNode (C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:473:7)
+14 verbose stack     at async #applyUserRequests (C:\Users\miyaw\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:408:7)
+15 error code ENOENT
+16 error syscall open
+17 error path C:\Development\git\ionic_sample\npm_cache\package.json
+18 error errno -4058
+19 error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\Development\git\ionic_sample\npm_cache\package.json'
+20 error enoent This is related to npm not being able to find a file.
+20 error enoent
+21 silly unfinished npm timer reify 1741616704012
+22 silly unfinished npm timer reify:loadTrees 1741616704014
+23 silly unfinished npm timer idealTree:userRequests 1741616704563
+24 verbose cwd C:\Development\git\ionic_sample\ionic_sample2
+25 verbose os Windows_NT 10.0.19045
+26 verbose node v22.14.0
+27 verbose npm  v11.1.0
+28 verbose exit -4058
+29 verbose code -4058
+30 error A complete log of this run can be found in: C:\Development\git\ionic_sample\.npm-cache\_logs\2025-03-10T14_25_03_542Z-debug-0.log
